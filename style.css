@@ -6,9 +6,10 @@ body,
     margin-bottom: 25px;
     box-sizing: border-box;
     font-size: 62.5%;
+    
 }
 
-.container{
+.card{
 font-size: 30px;
 display: flex;
 justify-content: space-around;
@@ -18,18 +19,20 @@ justify-content: space-around;
 .box{
     border: 5px solid lightblue;
     border-radius: 15px;
+    display: flex;
     width: 28%;
     height: 400px;
     background-color:lightpink;
-    box-shadow: rgb(245, 219, 186) 17px 17px
+    box-shadow: rgb(245, 219, 186) 18px 18px
 }
 
 .image{
-    width: 519px;
+    width: 520px;
     height: 390px;
-   border-radius: 15px;
-
+   border-radius: 11px;
 }
+
+
 h1{
     font-size: 80px;
     text-align: center;
