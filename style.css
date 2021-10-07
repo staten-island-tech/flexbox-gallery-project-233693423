@@ -1,7 +1,7 @@
 html,
 body,
 *{
-    background-color: antiquewhite;
+
     padding: 0;
     margin-bottom: 25px;
     box-sizing: border-box;
@@ -9,10 +9,13 @@ body,
     
 }
 
+
+
 .card{
 font-size: 30px;
 display: flex;
 justify-content: space-around;
+
 }
 
 
@@ -22,14 +25,17 @@ justify-content: space-around;
     display: flex;
     width: 28%;
     height: 400px;
-    background-color:lightpink;
-    box-shadow: rgb(245, 219, 186) 18px 18px
+    background-color:antiquewhite;
+    box-shadow: rgb(226, 222, 215) 18px 18px
+    
 }
 
+
 .image{
-    width: 520px;
+    width: 400px;
     height: 390px;
    border-radius: 11px;
+   
 }
 
 
@@ -38,3 +44,13 @@ h1{
     text-align: center;
 color: rgb(168, 212, 212);
 }
+
+h2{
+    color:rgb(166, 139, 175);
+    font-size: 23px;
+    text-align: center;
+    margin-top: auto;
+
+}
+
+
