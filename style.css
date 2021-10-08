@@ -15,7 +15,7 @@ body,
 font-size: 30px;
 display: flex;
 justify-content: space-around;
-
+position: relative;
 }
 
 
@@ -23,12 +23,12 @@ justify-content: space-around;
     border: 5px solid lightblue;
     border-radius: 15px;
     display: flex;
+    transition: all 0.3s ease-in-out;
     width: 28%;
     height: 400px;
     background-color:antiquewhite;
-    box-shadow: rgb(226, 222, 215) 18px 18px
+    box-shadow: rgb(226, 222, 215) 18px 18px}
     
-}
 
 
 .image{
@@ -52,5 +52,12 @@ h2{
     margin-top: auto;
 
 }
+.box:hover{
+    transform: scale(1.5);
+}
 
+.text:before{
+    font-size: 2.5rem;
+    content:"\2665";
 
+}
