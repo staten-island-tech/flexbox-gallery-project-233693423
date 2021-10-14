@@ -63,7 +63,44 @@ h2{
     content:"\2665";
 }
 
-.box:hover .image:not(:hover) {
+.gallery:hover .box:not(:hover) {
     opacity: 0.3;
     transform: scale(0.8)
+}
+
+.text{
+    height: 7rem;
+    width: 15rem;
+   animation: test 4s infinite;
+}
+
+@keyframes test{
+    0%{
+left: 50%;
+bottom: 10%;
+background-color:lightblue ;
+    }
+    25%{
+        left: 50%;
+        bottom: 10%;
+        transform: scale(1.5);
+        background-color:lightgoldenrodyellow ;
+    }
+    50%{
+        left: 50%;
+        bottom: 10%;
+        transform: scale(1);
+        background-color:lightpink ;
+    }
+    75%{
+        left: 50%;
+        bottom: 10%;
+        transform: scale(1.6);
+        background-color:lightcoral ;
+    }
+    100%{
+        left: 50%;
+        bottom: 10%;
+        background-color:lightsalmon ;
+    }
 }
