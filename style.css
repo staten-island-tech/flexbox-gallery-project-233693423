@@ -7,7 +7,7 @@ body,
     box-sizing: border-box;
     font-size: 62.5%;
     font-family: 'Rampart One', cursive;
-    
+   
 }
 
 
@@ -20,9 +20,7 @@ position: relative;
 
 }
 
-.gallery{
-    flex-flow: row wrap;
-}
+
 
 .box{
     border: 7px solid lightblue;
@@ -67,7 +65,7 @@ position: relative;
     width: 45rem;
     height: 38.6rem;
    border-radius: 1.1rem;
-
+   flex-flow: row wrap;
 }
 
 
@@ -86,13 +84,18 @@ h2{
 }
 
 .box1:hover{
-    border-top-right-radius:0px;
-  border-bottom-left-radius:0px;
-}
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+      }
+
+
 
 .box2:hover{
-    fill:lightpink;
-}
+    color: #ff7a59;
+    border: lightskyblue solid 7px;
+    background: rgb(243, 194, 201);
+  }
 
 .box:hover{
     transform: scale(1.2);
@@ -104,9 +107,45 @@ h2{
     content:"\2665";
 }
 
+.box3{
+    border: 7px solid lightblue;
+    border-radius: 1.6rem;
+    display: flex;
+    transition: all 0.3s ;
+    outline-offset: 1rem;
+    width: 28%;
+    height: 40rem;
+    position:relative;
+    background-color:antiquewhite;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    box-shadow: rgb(226, 222, 215) 1.8rem 1.8rem}
 
+    .box3:hover {
+        border: 7px dotted lightskyblue;
+        color: #ff7a59;
+        background:antiquewhite;
+      }
 
-.box-text{
+      .box5{
+        border: 7px solid lightblue;
+        border-radius: 1.6rem;
+        display: flex;
+        transition: all 0.3s ;
+        outline-offset: 1rem;
+        width: 28%;
+        height: 40rem;
+        position:relative;
+        background-color:antiquewhite;
+        border-top-right-radius:10px;
+        border-bottom-left-radius:10px;
+        box-shadow: rgb(226, 222, 215) 1.8rem 1.8rem}
+
+        .box5:hover {
+            transform: skew(-10deg);
+          }
+
+ .box-text{
     height: 10rem;
     width: 17rem;
    animation: test 4s infinite;
@@ -143,9 +182,41 @@ background-color:lightblue ;
     }
 }
 
+.box8{
+    border: 7px solid lightblue;
+    border-radius: 1.6rem;
+    display: flex;
+    transition: all 0.3s ;
+    outline-offset: 1rem;
+    width: 28%;
+    height: 40rem;
+    transform-style: preserve-3d;
+    position:relative;
+    background-color:antiquewhite;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    box-shadow: rgb(226, 222, 215) 1.8rem 1.8rem}
+    
+    .box8:hover {
+        animation: bounce 1s;}
 
+ @keyframes bounce {
+    0%, 20%, 60%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  
+    40% {
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+  
+    80% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+}
 
-@media and (max-width: 768px){
- 
- }
-
+@media screen and (max-width:768) {
+    
+}
