@@ -219,22 +219,34 @@ background-color:lightblue ;
 
 @media screen and (max-width: 1024px) {
     .gallery{
-    
+    flex-direction: column;
+    width: 110%;
+    margin-left: 14rem;
+    }
+    h1{
+        margin-right: 40rem;
     }
 }
 
 @media screen and (max-width: 768px) {
     .gallery{
        flex-direction: column;
-       width: 180%;
+       width: 200%;
+       margin-left: 14rem;
+    }
+    h1{
+        margin-left: 23rem ;
     }
 }
 
 @media screen and (max-width: 375px) {
     .gallery{
         flex-direction: column;
-        width: 180%;
-       
+        width: 200%;
+       margin-left: 8rem;
+    }
+    h1{
+        margin-right: 20rem;
     }
 }
 
