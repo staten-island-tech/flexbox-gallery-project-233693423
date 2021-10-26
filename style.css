@@ -14,8 +14,8 @@ margin: 0;
 .gallery{
     display: flex;
     flex-wrap: wrap;
-    margin: 1rem auto;
     justify-content: space-around;
+    margin-bottom: 8rem;
 }
 
 
@@ -42,6 +42,7 @@ margin: 0;
         position:relative;
         background-color:antiquewhite;
         border-top-right-radius:10px;
+    
         border-bottom-left-radius:10px;
         box-shadow: rgb(226, 222, 215) 1.8rem 1.8rem}
 
