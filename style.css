@@ -1,9 +1,8 @@
 html,
 body,
 *{
-
+margin: 0;
     padding: 0;
-    margin-bottom: 2.5rem;
     box-sizing: border-box;
     font-size: 62.5%;
     font-family: 'Rampart One', cursive;
